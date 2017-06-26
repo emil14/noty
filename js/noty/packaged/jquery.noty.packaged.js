@@ -1260,12 +1260,12 @@ $.noty.themes.defaultTheme = {
                     case 'centerRight':
                     case 'inline':
                         $(selector).css({borderRadius: '0px 0px 0px 0px'});
-                        $(selector).first().css({'border-top-left-radius': '5px', 'border-top-right-radius': '5px'});
-                        $(selector).last().css({'border-bottom-left-radius': '5px', 'border-bottom-right-radius': '5px'});
+                        $(selector).first().css({'border-top-left-radius': '3px', 'border-top-right-radius': '3px'});
+                        $(selector).last().css({'border-bottom-left-radius': '3px', 'border-bottom-right-radius': '3px'});
                         break;
                     case 'bottom':
                         $(selector).css({borderRadius: '0px 0px 0px 0px'});
-                        $(selector).first().css({borderRadius: '5px 5px 0px 0px'});
+                        $(selector).first().css({borderRadius: '3px 3px 0px 0px'});
                         break;
                     default:
                         break;
